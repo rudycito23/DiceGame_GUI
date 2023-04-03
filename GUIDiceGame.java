@@ -32,11 +32,11 @@ public class GUIDiceGame extends JFrame {
         output.setCaretPosition(output.getDocument().getLength());
 
         setTitle(
-                "                                                                                Dice Game                          ");
+                "                                                                                Nuff Said                          ");
         setLayout(new FlowLayout());
 
         label = new JLabel(
-                "                                                                 Welcome to Dice Game!                                                                            ");
+                "                                                                 Welcome to Nuff Said!                                                                            ");
         add(label);
 
         label = new JLabel("Player One: ");
@@ -161,7 +161,7 @@ public class GUIDiceGame extends JFrame {
                 spin.setEnabled(true);
                 game.addPlayer(playerTwoName, "Pro");
                 output.append("\n");
-                output.append("Welcome to the Dice game! \n");
+                output.append("Welcome to Nuff Said! \n");
                 output.append("Beginner players need (5) points to win! \n");
                 output.append("Pro players need (8) points to win! \n");
                 output.append("Press the spin button to take a turn. \n");
@@ -175,7 +175,7 @@ public class GUIDiceGame extends JFrame {
                 spin.setEnabled(true);
                 game.addPlayer(playerTwoName, "Beginner");
                 output.append("\n");
-                output.append("Welcome to the Dice game! \n");
+                output.append("Welcome to the Nuff Said! \n");
                 output.append("Beginner players need (5) points to win! \n");
                 output.append("Pro players need (8) points to win! \n");
                 output.append("Press the spin button to take a turn. \n");
